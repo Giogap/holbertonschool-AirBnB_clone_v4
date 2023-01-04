@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  #config.vm.box = "base"
+  # config.vm.box = "base"
   config.vm.network :forwarded_port, guest: 5001, host: 5001
 
   # Disable automatic box update checking. If you disable this, then
