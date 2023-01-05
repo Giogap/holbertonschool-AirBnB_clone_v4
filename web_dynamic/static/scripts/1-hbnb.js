@@ -6,6 +6,6 @@ $(function () {
     } else {
       delete amenityId[$(this).data('name')];
     }
-  $('.amenities h4').text(Object.keys(amenityId).join(', '));
+    $('.amenities h4').text(Object.keys(amenityId).join(', '));
   });
 });
